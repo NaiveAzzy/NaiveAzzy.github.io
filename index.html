@@ -1,0 +1,70 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <meta charset="utf-8">
+        <title>【软路由】引导网页</title>
+        <script>
+            location.hash="#main"
+        </script> 
+    </head>
+
+    <body onhashchange="changeWeb()">
+        
+        <div id="topLine">
+            <ul>
+                <li><a class="active" href="#main" id="topMain">Main</a></li>
+                <li><a class="" href="#server" id="topServer">Server</a></li>
+                <li><a class="" href="#video" id="topVideo">Video</a></li>
+                <li style="float: right;"><a class="" href="#about" id="topAbout">About</a></li>
+            </ul>
+        </div>
+
+        <div id="mainInformation">
+            <h2>这里是主页</h2>
+            <p>
+                这里是Asriel的软路由搭建的一个小网页！<br />
+                如果想了解更多信息欢迎点击上方导航栏来引导 <br />
+                也欢迎点击<a href="#video">此处</a>或上方导航栏的 "Video" 来观看最近的Minecraft视频<br />
+                (最近一次更新是2021.8.12)
+            </p>
+        </div>
+
+        <div id="serverInformation">
+            <h2>这里是服务器详情</h2>
+            <p>
+                这个服务器是搭建在赛扬3865U上的软路由里的，<br />
+                网页本体允许在软路由的一个ubuntu虚拟机中。<br />
+                这个虚拟机还包含一个Minecraft JAVA和Minecraft BE服务器，但非全程启用，<br />
+                服务器地址可在About页面中的联系方式询问得。
+            </p>
+        </div>
+        
+        <div id="videoInformation">
+            <p>
+                Here is the Video website. <br />
+                最后一次更新时间： 2021.8.12
+            </p>
+            <object data="video/Minecraft.mp4" width="320" height="240"></object>
+        </div>
+
+        <div id="aboutInformation">
+            <h2>这里是关于界面</h2>
+            <p>
+                联系方式：2136571986(QQ) <br />
+                对该网页有更好的建议或想进入前面提到的服务器可以向上方联系方式反馈 <br />
+                顺带一提本人只是一个高二生，且这个网页用了不到两小时搭建而成。
+            </p>
+        </div>
+
+        <p>
+            网页部分代码来源于
+            <a href="https://www.w3school.com.cn/css/css_navbar_horizontal.asp">w3school</a>
+            和
+            <a href=https://www.runoob.com/">runnoob</a>
+        </p>
+    </body>
+
+    <script type="text/javascript" src="js/index.js"></script>
+</html>
+
