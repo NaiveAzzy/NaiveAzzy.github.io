@@ -31,8 +31,17 @@ body {
     margin: 0px;
 }
 
+#video {
+    text-align: center;
+    clear: both;
+    margin: auto;
+}
+
 #topLine {
     margin-left: 0px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 #mainInformation {
